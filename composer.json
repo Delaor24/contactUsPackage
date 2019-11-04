@@ -1,0 +1,20 @@
+{
+    "name": "rimon/contact",
+    "description": "this project will work contact information save database and send email notification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "deloar",
+            "email": "deloar801@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+     "autoload": {
+        "psr-4": {
+            "rimon\\contact\\": "src/"
+        }
+    },
+}
