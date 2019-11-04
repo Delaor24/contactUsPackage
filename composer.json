@@ -12,9 +12,18 @@
     "minimum-stability": "dev",
     "require": {},
 
-     "autoload": {
+    "autoload": {
         "psr-4": {
             "rimon\\contact\\": "src/"
+        }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "rimon\\contact\\ContactServiceProvider"
+            ]
+
         }
     }
 }
